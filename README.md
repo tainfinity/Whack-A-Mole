@@ -17,11 +17,4 @@ This is a simple desktop game called "Whack-a-Mole" developed in Java using Swin
 4. The game runs for 10 seconds, and your goal is to whack as many moles as possible during this time.
 5. At the end of the game, your score will be displayed, showing the number of moles whacked and the number of missed attempts.
 
-## Code Structure
-- **Main Class**: `MoleGame` extends `JFrame` and implements `ActionListener`.
-- **UI Components**: 
-  - The game board (`gameBoard`) contains 9 buttons arranged in a 3x3 grid.
-  - The top panel (`topBoard`) contains the Start button, status label, and score label.
-- **Timer**: A `Timer` object is used to control the mole appearances and game duration.
-- **Sound Effects**: Uses Java's `AudioSystem` to play sound effects for mole laughter, successful whacks, and game over.
 
